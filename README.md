@@ -1,174 +1,896 @@
-<!-- ═══════════════════════════════════════════════════════════════
-     RATTHAPHON KHAN · GitHub Profile README
-     Style: Slate Silver — Dark, Refined, Architectural
-═══════════════════════════════════════════════════════════════ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ratthaphon Khan — Portfolio</title>
+  <meta name="description" content="Infrastructure · Full-Stack Engineer · AI Developer · KU SRC"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@200;300;400;500;600&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --bg:        #141618;
+      --bg2:       #1c1f23;
+      --bg3:       #1f2329;
+      --border:    #2a2e34;
+      --accent:    #8fa8c8;
+      --accent2:   #4a6a9a;
+      --text:      #e8ecf0;
+      --muted:     #a0aab8;
+      --dim:       #5a6570;
+      --faint:     #3a4550;
+    }
 
-<div align="center">
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-<!-- ── TOP ACCENT BAR ── -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,4&height=3&section=header" width="100%"/>
+    html { scroll-behavior: smooth; }
 
-<br/>
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Outfit', sans-serif;
+      font-weight: 300;
+      line-height: 1.6;
+      overflow-x: hidden;
+      cursor: none;
+    }
 
-<!-- ── NAME HEADER ── -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:141618,100:1c2a3a&height=200&section=header&text=Ratthaphon%20Khan&fontSize=48&fontColor=e8ecf0&fontAlignY=55&desc=Software%20Engineer%20%C2%B7%20AI%20Developer%20%C2%B7%20Bangkok%2C%20TH&descSize=14&descAlignY=78&descColor=8fa8c8&animation=fadeIn" width="100%"/>
+    /* ── CUSTOM CURSOR ── */
+    .cursor {
+      width: 10px; height: 10px;
+      background: var(--accent);
+      border-radius: 50%;
+      position: fixed;
+      pointer-events: none;
+      z-index: 9999;
+      transition: transform 0.15s ease, opacity 0.15s;
+      transform: translate(-50%, -50%);
+    }
+    .cursor-ring {
+      width: 36px; height: 36px;
+      border: 1px solid var(--accent);
+      border-radius: 50%;
+      position: fixed;
+      pointer-events: none;
+      z-index: 9998;
+      transition: transform 0.35s ease, width 0.3s, height 0.3s, opacity 0.3s;
+      transform: translate(-50%, -50%);
+      opacity: 0.4;
+    }
+    body:hover .cursor { opacity: 1; }
 
-<br/>
+    /* ── NOISE OVERLAY ── */
+    body::before {
+      content: '';
+      position: fixed; inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+      background-size: 200px;
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0.4;
+    }
 
-<!-- ── INTRO ── -->
-<p align="center" style="color:#8fa8c8">
-  <em>Building intelligent systems &amp; scalable applications</em><br/>
-  <sub>Student at Kasetsart University · Full-Stack · AI/ML · IoT</sub>
-</p>
+    /* ── GRID BG ── */
+    body::after {
+      content: '';
+      position: fixed; inset: 0;
+      background-image:
+        linear-gradient(rgba(143,168,200,0.025) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(143,168,200,0.025) 1px, transparent 1px);
+      background-size: 48px 48px;
+      pointer-events: none;
+      z-index: 0;
+    }
 
-<br/>
+    /* ── NAV ── */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 48px;
+      background: rgba(20,22,24,0.85);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border);
+      transition: padding 0.3s;
+    }
+    nav.scrolled { padding: 14px 48px; }
+    .nav-logo {
+      font-family: 'Spectral', serif;
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--accent);
+      letter-spacing: 0.5px;
+      font-style: italic;
+    }
+    .nav-links { display: flex; gap: 36px; list-style: none; }
+    .nav-links a {
+      color: var(--dim);
+      text-decoration: none;
+      font-size: 11px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      transition: color 0.2s;
+      font-weight: 400;
+    }
+    .nav-links a:hover { color: var(--accent); }
 
-<!-- ── STATS ROW ── -->
-<table border="0" align="center" cellspacing="0" cellpadding="0">
-<tr>
-<td align="center">
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=ratthaphon0&show_icons=true&theme=github_dark&bg_color=141618&title_color=8fa8c8&text_color=a0aab8&icon_color=8fa8c8&border_color=2a2e34&border_radius=4&hide_title=false&rank_icon=github&custom_title=Overview"/>
-</td>
-<td align="center">
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ratthaphon0&layout=compact&theme=github_dark&bg_color=141618&title_color=8fa8c8&text_color=a0aab8&border_color=2a2e34&border_radius=4&langs_count=6&custom_title=Languages"/>
-</td>
-</tr>
-</table>
+    /* ── SECTIONS ── */
+    section { position: relative; z-index: 1; }
 
-<br/>
+    /* ── HERO ── */
+    #hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding: 120px 48px 80px;
+      position: relative;
+      overflow: hidden;
+    }
 
-<!-- ── CONTRIBUTION STREAK ── -->
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ratthaphon0&theme=github-dark-blue&background=141618&border=2a2e34&stroke=8fa8c8&ring=8fa8c8&fire=a0aab8&currStreakNum=e8ecf0&sideNums=e8ecf0&currStreakLabel=8fa8c8&sideLabels=8fa8c8&dates=5a6570&border_radius=4" alt="Streak Stats" height="130"/>
+    .hero-accent-line {
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, transparent, var(--accent), var(--accent2), transparent);
+    }
 
-<br/><br/>
+    /* Decorative orbs */
+    .orb {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(80px);
+      pointer-events: none;
+    }
+    .orb-1 {
+      width: 500px; height: 500px;
+      background: radial-gradient(circle, rgba(143,168,200,0.06) 0%, transparent 70%);
+      top: -100px; right: -100px;
+    }
+    .orb-2 {
+      width: 300px; height: 300px;
+      background: radial-gradient(circle, rgba(74,106,154,0.08) 0%, transparent 70%);
+      bottom: 0; left: 200px;
+    }
 
-<!-- ── DIVIDER ── -->
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%"/>
+    .hero-content { max-width: 700px; }
 
-</div>
+    .hero-eyebrow {
+      font-size: 11px;
+      letter-spacing: 5px;
+      color: var(--accent);
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      opacity: 0;
+      animation: fadeUp 0.8s ease 0.2s forwards;
+    }
 
-<br/>
+    .hero-name {
+      font-family: 'Spectral', serif;
+      font-size: clamp(48px, 7vw, 80px);
+      font-weight: 300;
+      line-height: 1.05;
+      letter-spacing: -0.5px;
+      color: var(--text);
+      opacity: 0;
+      animation: fadeUp 0.8s ease 0.35s forwards;
+    }
+    .hero-name em {
+      font-style: italic;
+      font-weight: 600;
+      color: var(--accent);
+    }
 
-<!-- ══════════════════════════════════════════════ -->
-<!-- TECH STACK                                    -->
-<!-- ══════════════════════════════════════════════ -->
+    .hero-roles {
+      margin-top: 24px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      opacity: 0;
+      animation: fadeUp 0.8s ease 0.5s forwards;
+    }
+    .role-chip {
+      border: 1px solid var(--border);
+      color: var(--muted);
+      padding: 6px 16px;
+      font-size: 11px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-weight: 400;
+      background: var(--bg2);
+      transition: all 0.25s;
+    }
+    .role-chip:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+      background: rgba(143,168,200,0.05);
+    }
 
-<div align="center">
+    .hero-desc {
+      margin-top: 28px;
+      font-size: 15px;
+      color: var(--dim);
+      font-weight: 200;
+      max-width: 480px;
+      line-height: 1.8;
+      opacity: 0;
+      animation: fadeUp 0.8s ease 0.65s forwards;
+    }
 
-### `// STACK`
+    .hero-cta {
+      margin-top: 40px;
+      display: flex;
+      gap: 16px;
+      opacity: 0;
+      animation: fadeUp 0.8s ease 0.8s forwards;
+    }
+    .btn-primary {
+      background: var(--accent);
+      color: var(--bg);
+      border: none;
+      padding: 12px 28px;
+      font-size: 11px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      font-weight: 600;
+      text-decoration: none;
+      font-family: 'Outfit';
+      transition: all 0.25s;
+      cursor: none;
+    }
+    .btn-primary:hover { background: #b0c8e8; transform: translateY(-2px); }
+    .btn-ghost {
+      border: 1px solid var(--border);
+      color: var(--muted);
+      padding: 12px 28px;
+      font-size: 11px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      font-weight: 400;
+      text-decoration: none;
+      font-family: 'Outfit';
+      transition: all 0.25s;
+      cursor: none;
+      background: transparent;
+    }
+    .btn-ghost:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-2px); }
 
-<br/>
+    /* Hero stats */
+    .hero-stats {
+      position: absolute;
+      right: 48px;
+      top: 50%;
+      transform: translateY(-50%);
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      opacity: 0;
+      animation: fadeIn 1s ease 1s forwards;
+    }
+    .hero-stat {
+      text-align: right;
+      border-right: 2px solid var(--border);
+      padding-right: 20px;
+      transition: border-color 0.25s;
+    }
+    .hero-stat:hover { border-color: var(--accent); }
+    .hero-stat-n {
+      font-family: 'Spectral', serif;
+      font-size: 38px;
+      font-weight: 300;
+      color: var(--accent);
+      line-height: 1;
+    }
+    .hero-stat-l {
+      font-size: 9px;
+      color: var(--faint);
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-top: 4px;
+    }
 
-**Languages**
+    /* ── SECTION COMMON ── */
+    .section-inner {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 100px 48px;
+    }
+    .section-label {
+      font-size: 10px;
+      letter-spacing: 6px;
+      color: var(--accent);
+      text-transform: uppercase;
+      margin-bottom: 48px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .section-label::before {
+      content: '';
+      width: 32px; height: 1px;
+      background: var(--accent);
+    }
+    .section-label::after {
+      content: '';
+      flex: 1; height: 1px;
+      background: linear-gradient(90deg, var(--border), transparent);
+    }
 
-![Python](https://img.shields.io/badge/Python-141618?style=for-the-badge&logo=python&logoColor=8fa8c8&labelColor=1c2028)
-![JavaScript](https://img.shields.io/badge/JavaScript-141618?style=for-the-badge&logo=javascript&logoColor=8fa8c8&labelColor=1c2028)
-![SQL](https://img.shields.io/badge/SQL-141618?style=for-the-badge&logo=postgresql&logoColor=8fa8c8&labelColor=1c2028)
+    /* ── ABOUT ── */
+    #about { border-top: 1px solid var(--border); }
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      align-items: start;
+    }
+    .about-text h2 {
+      font-family: 'Spectral', serif;
+      font-size: 36px;
+      font-weight: 300;
+      color: var(--text);
+      line-height: 1.25;
+      margin-bottom: 24px;
+    }
+    .about-text h2 em { color: var(--accent); font-style: italic; }
+    .about-text p {
+      font-size: 14px;
+      color: var(--dim);
+      line-height: 1.9;
+      font-weight: 200;
+      margin-bottom: 16px;
+    }
+    .about-info {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      border: 1px solid var(--border);
+    }
+    .info-row {
+      display: flex;
+      align-items: center;
+      padding: 14px 20px;
+      border-bottom: 1px solid var(--border);
+      transition: background 0.2s;
+    }
+    .info-row:last-child { border-bottom: none; }
+    .info-row:hover { background: var(--bg2); }
+    .info-label {
+      font-size: 9px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--faint);
+      width: 100px;
+      flex-shrink: 0;
+    }
+    .info-value { font-size: 13px; color: var(--muted); font-weight: 300; }
+    .info-value a { color: var(--accent); text-decoration: none; }
+    .info-value a:hover { text-decoration: underline; }
 
-**Frontend**
+    /* ── STACK ── */
+    #stack { border-top: 1px solid var(--border); }
+    .stack-groups {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+    }
+    .stack-group {
+      background: var(--bg);
+      padding: 28px 32px;
+      transition: background 0.2s;
+    }
+    .stack-group:hover { background: var(--bg2); }
+    .stack-group-title {
+      font-size: 9px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 16px;
+      font-weight: 400;
+    }
+    .stack-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+    .stack-tag {
+      background: rgba(143,168,200,0.06);
+      border: 1px solid rgba(143,168,200,0.15);
+      color: var(--muted);
+      padding: 4px 14px;
+      font-size: 11px;
+      letter-spacing: 1px;
+      font-weight: 300;
+      transition: all 0.2s;
+    }
+    .stack-tag:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+      background: rgba(143,168,200,0.08);
+    }
 
-![React](https://img.shields.io/badge/React-141618?style=for-the-badge&logo=react&logoColor=8fa8c8&labelColor=1c2028)
-![HTML5](https://img.shields.io/badge/HTML5-141618?style=for-the-badge&logo=html5&logoColor=8fa8c8&labelColor=1c2028)
-![CSS3](https://img.shields.io/badge/CSS3-141618?style=for-the-badge&logo=css3&logoColor=8fa8c8&labelColor=1c2028)
+    /* ── PROJECTS ── */
+    #projects { border-top: 1px solid var(--border); }
+    .projects-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+    }
+    .proj-card {
+      background: var(--bg);
+      padding: 32px 36px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 24px;
+      align-items: start;
+      transition: background 0.25s;
+      position: relative;
+      overflow: hidden;
+    }
+    .proj-card::before {
+      content: '';
+      position: absolute;
+      left: 0; top: 0; bottom: 0;
+      width: 3px;
+      background: transparent;
+      transition: background 0.25s;
+    }
+    .proj-card:hover { background: var(--bg2); }
+    .proj-card:hover::before { background: var(--accent); }
 
-**Backend & Data**
+    .proj-number {
+      font-family: 'Spectral', serif;
+      font-size: 11px;
+      color: rgba(143,168,200,0.2);
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+    }
+    .proj-name {
+      font-family: 'Spectral', serif;
+      font-size: 20px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .proj-desc {
+      font-size: 13px;
+      color: var(--dim);
+      font-weight: 200;
+      line-height: 1.7;
+      max-width: 500px;
+      margin-bottom: 16px;
+    }
+    .proj-modules {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+    .proj-module {
+      background: var(--bg3);
+      border: 1px solid var(--border);
+      color: var(--faint);
+      padding: 3px 12px;
+      font-size: 10px;
+      letter-spacing: 1px;
+      font-weight: 300;
+    }
+    .proj-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+    .proj-tag {
+      background: rgba(143,168,200,0.05);
+      border: 1px solid rgba(143,168,200,0.15);
+      color: var(--accent);
+      padding: 3px 12px;
+      font-size: 10px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      font-weight: 400;
+    }
+    .proj-right { text-align: right; }
+    .proj-status {
+      display: inline-block;
+      font-size: 9px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      border: 1px solid;
+      font-weight: 400;
+      margin-bottom: 12px;
+    }
+    .proj-link {
+      display: block;
+      font-size: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--faint);
+      text-decoration: none;
+      transition: color 0.2s;
+      margin-top: 8px;
+    }
+    .proj-link:hover { color: var(--accent); }
 
-![Node.js](https://img.shields.io/badge/Node.js-141618?style=for-the-badge&logo=node.js&logoColor=8fa8c8&labelColor=1c2028)
-![FastAPI](https://img.shields.io/badge/FastAPI-141618?style=for-the-badge&logo=fastapi&logoColor=8fa8c8&labelColor=1c2028)
-![Pandas](https://img.shields.io/badge/Pandas-141618?style=for-the-badge&logo=pandas&logoColor=8fa8c8&labelColor=1c2028)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-141618?style=for-the-badge&logo=scikitlearn&logoColor=8fa8c8&labelColor=1c2028)
+    /* ── CONTACT ── */
+    #contact { border-top: 1px solid var(--border); }
+    .contact-inner {
+      text-align: center;
+      max-width: 560px;
+      margin: 0 auto;
+    }
+    .contact-inner h2 {
+      font-family: 'Spectral', serif;
+      font-size: 42px;
+      font-weight: 300;
+      color: var(--text);
+      line-height: 1.15;
+      margin-bottom: 16px;
+    }
+    .contact-inner h2 em { color: var(--accent); font-style: italic; }
+    .contact-inner p {
+      font-size: 14px;
+      color: var(--dim);
+      font-weight: 200;
+      line-height: 1.8;
+      margin-bottom: 36px;
+    }
+    .contact-links {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .contact-link {
+      border: 1px solid var(--border);
+      color: var(--muted);
+      padding: 12px 24px;
+      font-size: 10px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: 400;
+      transition: all 0.25s;
+      font-family: 'Outfit';
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--bg2);
+    }
+    .contact-link:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+      background: rgba(143,168,200,0.05);
+      transform: translateY(-2px);
+    }
 
-**Tools**
+    /* ── FOOTER ── */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 24px 48px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      z-index: 1;
+    }
+    .footer-left {
+      font-family: 'Spectral', serif;
+      font-size: 13px;
+      color: var(--faint);
+      font-style: italic;
+    }
+    .footer-right {
+      font-size: 9px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--faint);
+    }
+    .footer-bar {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--accent), var(--accent2), transparent);
+    }
 
-![Git](https://img.shields.io/badge/Git-141618?style=for-the-badge&logo=git&logoColor=8fa8c8&labelColor=1c2028)
-![GitHub](https://img.shields.io/badge/GitHub-141618?style=for-the-badge&logo=github&logoColor=8fa8c8&labelColor=1c2028)
-![VS Code](https://img.shields.io/badge/VS%20Code-141618?style=for-the-badge&logo=visual-studio-code&logoColor=8fa8c8&labelColor=1c2028)
-![Docker](https://img.shields.io/badge/Docker-141618?style=for-the-badge&logo=docker&logoColor=8fa8c8&labelColor=1c2028)
+    /* ── ANIMATIONS ── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+    .reveal {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: none;
+    }
 
-<br/>
+    /* ── SCROLLBAR ── */
+    ::-webkit-scrollbar { width: 4px; }
+    ::-webkit-scrollbar-track { background: var(--bg); }
+    ::-webkit-scrollbar-thumb { background: var(--faint); border-radius: 2px; }
+    ::-webkit-scrollbar-thumb:hover { background: var(--accent); }
+  </style>
+</head>
+<body>
 
-</div>
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
 
-<!-- ══════════════════════════════════════════════ -->
-<!-- PROJECTS                                      -->
-<!-- ══════════════════════════════════════════════ -->
+  <!-- NAV -->
+  <nav id="nav">
+    <div class="nav-logo">RK</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#stack">Stack</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="https://github.com/ratthaphon0" target="_blank">GitHub ↗</a></li>
+    </ul>
+  </nav>
 
-<br/>
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-accent-line"></div>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
 
-<div align="center">
+    <div class="hero-content">
+      <div class="hero-eyebrow">Software Engineer · Bangkok, TH</div>
+      <h1 class="hero-name">Ratthaphon<br/><em>Khan</em></h1>
+      <div class="hero-roles">
+        <span class="role-chip">Infrastructure</span>
+        <span class="role-chip">Full-Stack Dev</span>
+        <span class="role-chip">AI Developer</span>
+        <span class="role-chip">KU SRC</span>
+      </div>
+      <p class="hero-desc">
+        Building intelligent systems and scalable applications. Student at Kasetsart University, passionate about AI, full-stack engineering, and collaborative development.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="https://github.com/ratthaphon0" target="_blank" class="btn-ghost">GitHub Profile</a>
+      </div>
+    </div>
 
-### `// PROJECTS`
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <div class="hero-stat-n">177</div>
+        <div class="hero-stat-l">Contributions</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-n">10</div>
+        <div class="hero-stat-l">Repositories</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-n">4+</div>
+        <div class="hero-stat-l">Team Projects</div>
+      </div>
+    </div>
+  </section>
 
-</div>
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-inner">
+      <div class="section-label reveal">About</div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <h2>Engineer &amp;<br/><em>Problem Solver</em></h2>
+          <p>I'm a software engineering student at Kasetsart University (KU SRC), specialising in infrastructure, full-stack development, and AI-driven systems.</p>
+          <p>I enjoy working at the intersection of hardware, data, and intelligent software — building things that are both technically sound and genuinely useful.</p>
+          <p>Currently developing several collaborative projects including underwater monitoring systems, smart IoT solutions, and e-commerce platforms.</p>
+        </div>
+        <div class="about-info reveal">
+          <div class="info-row">
+            <span class="info-label">Location</span>
+            <span class="info-value">Chonburi, Thailand</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">University</span>
+            <span class="info-value">Kasetsart University (KU SRC)</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">Role</span>
+            <span class="info-value">Infrastructure · Full-Stack · AI</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">GitHub</span>
+            <span class="info-value"><a href="https://github.com/ratthaphon0" target="_blank">ratthaphon0 ↗</a></span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">Status</span>
+            <span class="info-value" style="color:#7aaa70">● Open to collaboration</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<br/>
+  <!-- STACK -->
+  <section id="stack">
+    <div class="section-inner">
+      <div class="section-label reveal">Stack</div>
+      <div class="stack-groups reveal">
+        <div class="stack-group">
+          <div class="stack-group-title">Languages</div>
+          <div class="stack-tags">
+            <span class="stack-tag">Python</span>
+            <span class="stack-tag">JavaScript</span>
+            <span class="stack-tag">SQL</span>
+            <span class="stack-tag">HTML / CSS</span>
+          </div>
+        </div>
+        <div class="stack-group">
+          <div class="stack-group-title">Frontend</div>
+          <div class="stack-tags">
+            <span class="stack-tag">React</span>
+            <span class="stack-tag">HTML5</span>
+            <span class="stack-tag">CSS3</span>
+            <span class="stack-tag">Tailwind</span>
+          </div>
+        </div>
+        <div class="stack-group">
+          <div class="stack-group-title">Backend &amp; Data</div>
+          <div class="stack-tags">
+            <span class="stack-tag">Node.js</span>
+            <span class="stack-tag">FastAPI</span>
+            <span class="stack-tag">Pandas</span>
+            <span class="stack-tag">scikit-learn</span>
+            <span class="stack-tag">REST API</span>
+          </div>
+        </div>
+        <div class="stack-group">
+          <div class="stack-group-title">Tools &amp; Infrastructure</div>
+          <div class="stack-tags">
+            <span class="stack-tag">Git</span>
+            <span class="stack-tag">GitHub</span>
+            <span class="stack-tag">Docker</span>
+            <span class="stack-tag">VS Code</span>
+            <span class="stack-tag">IoT / RPi</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
----
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-inner">
+      <div class="section-label reveal">Projects</div>
+      <div class="projects-grid">
 
-### 🌊 &nbsp; Underwater Project Suite &nbsp; `Team Collab`
+        <!-- Underwater -->
+        <div class="proj-card reveal">
+          <div>
+            <div class="proj-number">01</div>
+            <div class="proj-name">🌊 Underwater Project Suite</div>
+            <div class="proj-desc">Multi-module submarine underwater monitoring system — built collaboratively as a team.</div>
+            <div class="proj-modules">
+              <span class="proj-module">/ai</span>
+              <span class="proj-module">/backend</span>
+              <span class="proj-module">/frontend</span>
+              <span class="proj-module">/datasci</span>
+            </div>
+            <div class="proj-tags">
+              <span class="proj-tag">Python</span>
+              <span class="proj-tag">React</span>
+              <span class="proj-tag">AI / ML</span>
+              <span class="proj-tag">FastAPI</span>
+              <span class="proj-tag">Pandas</span>
+            </div>
+          </div>
+          <div class="proj-right">
+            <div class="proj-status" style="color:#8fa8c8;border-color:#8fa8c840">Team Collab</div>
+            <a href="https://github.com/ratthaphon0/underwater-project-v1" target="_blank" class="proj-link">View on GitHub ↗</a>
+          </div>
+        </div>
 
-> A multi-module submarine/underwater monitoring system built collaboratively.
+        <!-- AsixfShop -->
+        <div class="proj-card reveal">
+          <div>
+            <div class="proj-number">02</div>
+            <div class="proj-name">🛒 AsixfShop</div>
+            <div class="proj-desc">Full-featured e-commerce platform with product management, cart, and checkout flows.</div>
+            <div class="proj-tags">
+              <span class="proj-tag">JavaScript</span>
+              <span class="proj-tag">React</span>
+              <span class="proj-tag">Node.js</span>
+            </div>
+          </div>
+          <div class="proj-right">
+            <div class="proj-status" style="color:#7aaa70;border-color:#7aaa7040">In Progress</div>
+            <a href="https://github.com/ratthaphon0/shopping-website" target="_blank" class="proj-link">View on GitHub ↗</a>
+          </div>
+        </div>
 
-| Module | Description | Stack |
-|--------|-------------|-------|
-| [underwater-project-ai](https://github.com/ratthaphon0/underwater-project-ai) | AI analysis & prediction engine | `Python` `scikit-learn` |
-| [underwater-project-backend](https://github.com/ratthaphon0/underwater-project-backend) | REST API & data processing layer | `Python` `FastAPI` |
-| [underwater-project-frontend](https://github.com/ratthaphon0/underwater-project-frontend) | Dashboard interface | `JavaScript` `React` |
-| [underwater-project-datasci](https://github.com/ratthaphon0/underwater-project-datasci) | Data science & visualisation | `Python` `Pandas` |
+        <!-- SmartCanteen -->
+        <div class="proj-card reveal">
+          <div>
+            <div class="proj-number">03</div>
+            <div class="proj-name">🍱 SmartCanteen</div>
+            <div class="proj-desc">IoT-integrated smart canteen management system with ordering and inventory tracking.</div>
+            <div class="proj-tags">
+              <span class="proj-tag">Python</span>
+              <span class="proj-tag">IoT</span>
+              <span class="proj-tag">Raspberry Pi</span>
+            </div>
+          </div>
+          <div class="proj-right">
+            <div class="proj-status" style="color:#8fa8c8;border-color:#8fa8c840">Team Collab</div>
+            <a href="https://github.com/ratthaphon0/SmartCanteen" target="_blank" class="proj-link">View on GitHub ↗</a>
+          </div>
+        </div>
 
----
 
-### 🛒 &nbsp; AsixfShop &nbsp; `In Progress`
 
-> Full-featured e-commerce platform with product management, cart, and checkout flows.
+      </div>
+    </div>
+  </section>
 
-[![Repo](https://img.shields.io/badge/View%20Repo-1c2028?style=flat-square&logo=github&logoColor=8fa8c8)](https://github.com/ratthaphon0/asixfshop)
-![JavaScript](https://img.shields.io/badge/-JavaScript-1c2028?style=flat-square&logo=javascript&logoColor=8fa8c8)
-![React](https://img.shields.io/badge/-React-1c2028?style=flat-square&logo=react&logoColor=8fa8c8)
-![Node.js](https://img.shields.io/badge/-Node.js-1c2028?style=flat-square&logo=node.js&logoColor=8fa8c8)
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-inner">
+      <div class="section-label reveal">Contact</div>
+      <div class="contact-inner reveal">
+        <h2>Let's build<br/><em>something together</em></h2>
+        <p>Open to collaborations, interesting projects, and new connections. Feel free to reach out anytime.</p>
+        <div class="contact-links">
+          <a href="https://github.com/ratthaphon0" target="_blank" class="contact-link">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+            GitHub
+          </a>
+          <a href="/cdn-cgi/l/email-protection#82f0e3f6f6eae3f2eaedecb2c2e7fae3eff2eee7ace1edef" class="contact-link">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Email
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
 
----
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-left">Ratthaphon Khan</div>
+    <div class="footer-right">ratthaphon0 · Kasetsart University · Chonburi, TH</div>
+    <div class="footer-bar"></div>
+  </footer>
 
-### 🍱 &nbsp; SmartCanteen &nbsp; `Team Collab`
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    // Cursor
+    const cursor = document.getElementById('cursor');
+    const ring   = document.getElementById('cursorRing');
+    let mx = 0, my = 0, rx = 0, ry = 0;
+    document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; cursor.style.left = mx+'px'; cursor.style.top = my+'px'; });
+    function animRing() {
+      rx += (mx - rx) * 0.12;
+      ry += (my - ry) * 0.12;
+      ring.style.left = rx+'px'; ring.style.top = ry+'px';
+      requestAnimationFrame(animRing);
+    }
+    animRing();
+    document.querySelectorAll('a, button, .role-chip, .stack-tag').forEach(el => {
+      el.addEventListener('mouseenter', () => { ring.style.width='56px'; ring.style.height='56px'; ring.style.opacity='0.7'; });
+      el.addEventListener('mouseleave', () => { ring.style.width='36px'; ring.style.height='36px'; ring.style.opacity='0.4'; });
+    });
 
-> IoT-integrated smart canteen management system with ordering and inventory tracking.
+    // Nav shrink on scroll
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 60);
+    });
 
-[![Repo](https://img.shields.io/badge/View%20Repo-1c2028?style=flat-square&logo=github&logoColor=8fa8c8)](https://github.com/ratthaphon0/SmartCanteen)
-![Python](https://img.shields.io/badge/-Python-1c2028?style=flat-square&logo=python&logoColor=8fa8c8)
-![IoT](https://img.shields.io/badge/-IoT-1c2028?style=flat-square&logo=raspberrypi&logoColor=8fa8c8)
-
----
-
-### 🐍 &nbsp; ratthaphon-python-source &nbsp; `Personal`
-
-> Personal Python knowledge base — algorithms, utilities, and learning notes.
-
-[![Repo](https://img.shields.io/badge/View%20Repo-1c2028?style=flat-square&logo=github&logoColor=8fa8c8)](https://github.com/ratthaphon0/ratthaphon-python-source)
-![Python](https://img.shields.io/badge/-Python-1c2028?style=flat-square&logo=python&logoColor=8fa8c8)
-
----
-
-<br/>
-
-<!-- ══════════════════════════════════════════════ -->
-<!-- CONTRIBUTION GRAPH                            -->
-<!-- ══════════════════════════════════════════════ -->
-
-<div align="center">
-
-### `// ACTIVITY`
-
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ratthaphon0&bg_color=141618&color=8fa8c8&line=4a6a9a&point=e8ecf0&area=true&area_color=8fa8c820&hide_border=false&border_color=2a2e34&radius=4&custom_title=Contribution%20Graph" width="100%"/>
-
-<br/>
-
-<!-- ── FOOTER ── -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1c2a3a,100:141618&height=100&section=footer" width="100%"/>
-
-<sub><sub>
-  <em>Ratthaphon Khan · ratthaphon0 · Kasetsart University</em>
-</sub></sub>
-
-</div>
+    // Reveal on scroll
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => entry.target.classL

@@ -1,103 +1,66 @@
-<!-- ═══════════════════════════════════════════════════════════════
-     RATTHAPHON KHAN · GitHub Profile README
-     Style: Slate Silver — Dark, Refined, Architectural
-═══════════════════════════════════════════════════════════════ -->
+<!-- ═══════════════════════════════════════════════════════
+     RATTHAPHON KHAN · GitHub Profile — DARK GOLD LUXURY
+═══════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<!-- ── TOP ACCENT BAR ── -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,4&height=3&section=header" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0c0b09,50:1a1500,100:0c0b09&height=220&section=header&text=Ratthaphon%20Khan&fontSize=50&fontColor=c9a84c&fontAlignY=55&desc=Full-Stack%20Engineer%20%E2%80%A2%20AI%20Developer%20%E2%80%A2%20Kasetsart%20University&descSize=13&descAlignY=78&descColor=7a6f5e&animation=fadeIn" width="100%"/>
+
+</div>
+
+<div align="center">
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                                                                 │
+│   ✦  Building intelligent systems & scalable applications  ✦   │
+│          Bangkok, Thailand  ·  ratthaphon0  ·  PRO              │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+</div>
 
 <br/>
 
-<!-- ── NAME HEADER ── -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:141618,100:1c2a3a&height=200&section=header&text=Ratthaphon%20Khan&fontSize=48&fontColor=e8ecf0&fontAlignY=55&desc=Software%20Engineer%20%C2%B7%20AI%20Developer%20%C2%B7%20Bangkok%2C%20TH&descSize=14&descAlignY=78&descColor=8fa8c8&animation=fadeIn" width="100%"/>
+---
+
+<div align="center">
+
+### ✦ &nbsp; AT A GLANCE &nbsp; ✦
 
 <br/>
 
-<!-- ── INTRO ── -->
-<p align="center" style="color:#8fa8c8">
-  <em>Building intelligent systems &amp; scalable applications</em><br/>
-  <sub>Student at Kasetsart University · Full-Stack · AI/ML · IoT</sub>
-</p>
-
-<br/>
-
-<!-- ── STATS ROW ── -->
-<table border="0" align="center" cellspacing="0" cellpadding="0">
+<table>
 <tr>
-<td align="center">
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=ratthaphon0&show_icons=true&theme=github_dark&bg_color=141618&title_color=8fa8c8&text_color=a0aab8&icon_color=8fa8c8&border_color=2a2e34&border_radius=4&hide_title=false&rank_icon=github&custom_title=Overview"/>
+<td align="center" width="200">
+<img src="https://img.shields.io/badge/Contributions-177-c9a84c?style=for-the-badge&labelColor=0c0b09&color=1a1500&logoColor=c9a84c"/>
 </td>
-<td align="center">
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ratthaphon0&layout=compact&theme=github_dark&bg_color=141618&title_color=8fa8c8&text_color=a0aab8&border_color=2a2e34&border_radius=4&langs_count=6&custom_title=Languages"/>
+<td align="center" width="200">
+<img src="https://img.shields.io/badge/Repositories-10-c9a84c?style=for-the-badge&labelColor=0c0b09&color=1a1500"/>
+</td>
+<td align="center" width="200">
+<img src="https://img.shields.io/badge/Mar%202026-29%20Commits-c9a84c?style=for-the-badge&labelColor=0c0b09&color=1a1500"/>
 </td>
 </tr>
 </table>
 
 <br/>
 
-<!-- ── CONTRIBUTION STREAK ── -->
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ratthaphon0&theme=github-dark-blue&background=141618&border=2a2e34&stroke=8fa8c8&ring=8fa8c8&fire=a0aab8&currStreakNum=e8ecf0&sideNums=e8ecf0&currStreakLabel=8fa8c8&sideLabels=8fa8c8&dates=5a6570&border_radius=4" alt="Streak Stats" height="130"/>
-
-<br/><br/>
-
-<!-- ── DIVIDER ── -->
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%"/>
-
-</div>
-
-<br/>
-
-<!-- ══════════════════════════════════════════════ -->
-<!-- TECH STACK                                    -->
-<!-- ══════════════════════════════════════════════ -->
-
-<div align="center">
-
-### `// STACK`
+<table border="0">
+<tr>
+<td>
+<img src="https://github-readme-stats.vercel.app/api?username=ratthaphon0&show_icons=true&bg_color=0c0b09&title_color=c9a84c&text_color=7a6f5e&icon_color=c9a84c&border_color=c9a84c30&border_radius=0&hide_title=false&rank_icon=github&custom_title=Overview&ring_color=c9a84c" height="170"/>
+</td>
+<td>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ratthaphon0&layout=compact&bg_color=0c0b09&title_color=c9a84c&text_color=7a6f5e&border_color=c9a84c30&border_radius=0&langs_count=6&custom_title=Languages" height="170"/>
+</td>
+</tr>
+</table>
 
 <br/>
 
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-141618?style=for-the-badge&logo=python&logoColor=8fa8c8&labelColor=1c2028)
-![JavaScript](https://img.shields.io/badge/JavaScript-141618?style=for-the-badge&logo=javascript&logoColor=8fa8c8&labelColor=1c2028)
-![SQL](https://img.shields.io/badge/SQL-141618?style=for-the-badge&logo=postgresql&logoColor=8fa8c8&labelColor=1c2028)
-
-**Frontend**
-
-![React](https://img.shields.io/badge/React-141618?style=for-the-badge&logo=react&logoColor=8fa8c8&labelColor=1c2028)
-![HTML5](https://img.shields.io/badge/HTML5-141618?style=for-the-badge&logo=html5&logoColor=8fa8c8&labelColor=1c2028)
-![CSS3](https://img.shields.io/badge/CSS3-141618?style=for-the-badge&logo=css3&logoColor=8fa8c8&labelColor=1c2028)
-
-**Backend & Data**
-
-![Node.js](https://img.shields.io/badge/Node.js-141618?style=for-the-badge&logo=node.js&logoColor=8fa8c8&labelColor=1c2028)
-![FastAPI](https://img.shields.io/badge/FastAPI-141618?style=for-the-badge&logo=fastapi&logoColor=8fa8c8&labelColor=1c2028)
-![Pandas](https://img.shields.io/badge/Pandas-141618?style=for-the-badge&logo=pandas&logoColor=8fa8c8&labelColor=1c2028)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-141618?style=for-the-badge&logo=scikitlearn&logoColor=8fa8c8&labelColor=1c2028)
-
-**Tools**
-
-![Git](https://img.shields.io/badge/Git-141618?style=for-the-badge&logo=git&logoColor=8fa8c8&labelColor=1c2028)
-![GitHub](https://img.shields.io/badge/GitHub-141618?style=for-the-badge&logo=github&logoColor=8fa8c8&labelColor=1c2028)
-![VS Code](https://img.shields.io/badge/VS%20Code-141618?style=for-the-badge&logo=visual-studio-code&logoColor=8fa8c8&labelColor=1c2028)
-![Docker](https://img.shields.io/badge/Docker-141618?style=for-the-badge&logo=docker&logoColor=8fa8c8&labelColor=1c2028)
-
-<br/>
-
-</div>
-
-<!-- ══════════════════════════════════════════════ -->
-<!-- PROJECTS                                      -->
-<!-- ══════════════════════════════════════════════ -->
-
-<br/>
-
-<div align="center">
-
-### `// PROJECTS`
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=ratthaphon0&theme=highcontrast&background=0c0b09&border=c9a84c30&stroke=c9a84c50&ring=c9a84c&fire=e8c870&currStreakNum=c9a84c&sideNums=c9a84c&currStreakLabel=7a6f5e&sideLabels=7a6f5e&dates=5a4f3e&border_radius=0" height="130"/>
 
 </div>
 
@@ -105,70 +68,105 @@
 
 ---
 
-### 🌊 &nbsp; Underwater Project Suite &nbsp; `Team Collab`
+<div align="center">
 
-> A multi-module submarine/underwater monitoring system built collaboratively.
+### ✦ &nbsp; TECH STACK &nbsp; ✦
+
+</div>
+
+<br/>
+
+**`LANGUAGES`**
+
+![Python](https://img.shields.io/badge/Python-0c0b09?style=flat-square&logo=python&logoColor=c9a84c)&nbsp;
+![JavaScript](https://img.shields.io/badge/JavaScript-0c0b09?style=flat-square&logo=javascript&logoColor=c9a84c)&nbsp;
+![SQL](https://img.shields.io/badge/SQL-0c0b09?style=flat-square&logo=postgresql&logoColor=c9a84c)
+
+**`FRONTEND`**
+
+![React](https://img.shields.io/badge/React-0c0b09?style=flat-square&logo=react&logoColor=c9a84c)&nbsp;
+![HTML5](https://img.shields.io/badge/HTML5-0c0b09?style=flat-square&logo=html5&logoColor=c9a84c)&nbsp;
+![CSS3](https://img.shields.io/badge/CSS3-0c0b09?style=flat-square&logo=css3&logoColor=c9a84c)
+
+**`BACKEND & DATA`**
+
+![Node.js](https://img.shields.io/badge/Node.js-0c0b09?style=flat-square&logo=node.js&logoColor=c9a84c)&nbsp;
+![FastAPI](https://img.shields.io/badge/FastAPI-0c0b09?style=flat-square&logo=fastapi&logoColor=c9a84c)&nbsp;
+![Pandas](https://img.shields.io/badge/Pandas-0c0b09?style=flat-square&logo=pandas&logoColor=c9a84c)&nbsp;
+![scikit-learn](https://img.shields.io/badge/scikit--learn-0c0b09?style=flat-square&logo=scikitlearn&logoColor=c9a84c)
+
+**`TOOLS`**
+
+![Git](https://img.shields.io/badge/Git-0c0b09?style=flat-square&logo=git&logoColor=c9a84c)&nbsp;
+![GitHub](https://img.shields.io/badge/GitHub-0c0b09?style=flat-square&logo=github&logoColor=c9a84c)&nbsp;
+![VS Code](https://img.shields.io/badge/VS%20Code-0c0b09?style=flat-square&logo=visual-studio-code&logoColor=c9a84c)&nbsp;
+![Docker](https://img.shields.io/badge/Docker-0c0b09?style=flat-square&logo=docker&logoColor=c9a84c)
+
+<br/>
+
+---
+
+<div align="center">
+
+### ✦ &nbsp; SELECTED WORKS &nbsp; ✦
+
+</div>
+
+<br/>
+
+> ### 🌊 &nbsp; Underwater Project Suite &nbsp; — &nbsp; `TEAM COLLAB`
+> *Multi-module submarine underwater monitoring system*
 
 | Module | Description | Stack |
 |--------|-------------|-------|
 | [underwater-project-ai](https://github.com/ratthaphon0/underwater-project-ai) | AI analysis & prediction engine | `Python` `scikit-learn` |
-| [underwater-project-backend](https://github.com/ratthaphon0/underwater-project-backend) | REST API & data processing layer | `Python` `FastAPI` |
+| [underwater-project-backend](https://github.com/ratthaphon0/underwater-project-backend) | REST API & data processing | `Python` `FastAPI` |
 | [underwater-project-frontend](https://github.com/ratthaphon0/underwater-project-frontend) | Dashboard interface | `JavaScript` `React` |
 | [underwater-project-datasci](https://github.com/ratthaphon0/underwater-project-datasci) | Data science & visualisation | `Python` `Pandas` |
 
----
+<br/>
 
-### 🛒 &nbsp; AsixfShop &nbsp; `In Progress`
+> ### 🛒 &nbsp; AsixfShop &nbsp; — &nbsp; `IN PROGRESS`
+> *Full-featured e-commerce platform with cart, checkout & product management*
 
-> Full-featured e-commerce platform with product management, cart, and checkout flows.
-
-[![Repo](https://img.shields.io/badge/View%20Repo-1c2028?style=flat-square&logo=github&logoColor=8fa8c8)](https://github.com/ratthaphon0/asixfshop)
-![JavaScript](https://img.shields.io/badge/-JavaScript-1c2028?style=flat-square&logo=javascript&logoColor=8fa8c8)
-![React](https://img.shields.io/badge/-React-1c2028?style=flat-square&logo=react&logoColor=8fa8c8)
-![Node.js](https://img.shields.io/badge/-Node.js-1c2028?style=flat-square&logo=node.js&logoColor=8fa8c8)
-
----
-
-### 🍱 &nbsp; SmartCanteen &nbsp; `Team Collab`
-
-> IoT-integrated smart canteen management system with ordering and inventory tracking.
-
-[![Repo](https://img.shields.io/badge/View%20Repo-1c2028?style=flat-square&logo=github&logoColor=8fa8c8)](https://github.com/ratthaphon0/SmartCanteen)
-![Python](https://img.shields.io/badge/-Python-1c2028?style=flat-square&logo=python&logoColor=8fa8c8)
-![IoT](https://img.shields.io/badge/-IoT-1c2028?style=flat-square&logo=raspberrypi&logoColor=8fa8c8)
-
----
-
-### 🐍 &nbsp; ratthaphon-python-source &nbsp; `Personal`
-
-> Personal Python knowledge base — algorithms, utilities, and learning notes.
-
-[![Repo](https://img.shields.io/badge/View%20Repo-1c2028?style=flat-square&logo=github&logoColor=8fa8c8)](https://github.com/ratthaphon0/ratthaphon-python-source)
-![Python](https://img.shields.io/badge/-Python-1c2028?style=flat-square&logo=python&logoColor=8fa8c8)
-
----
+![JavaScript](https://img.shields.io/badge/JavaScript-0c0b09?style=flat-square&logo=javascript&logoColor=c9a84c)&nbsp;
+![React](https://img.shields.io/badge/React-0c0b09?style=flat-square&logo=react&logoColor=c9a84c)&nbsp;
+![Node.js](https://img.shields.io/badge/Node.js-0c0b09?style=flat-square&logo=node.js&logoColor=c9a84c)&nbsp;
+[![View Repo →](https://img.shields.io/badge/View%20Repo%20%E2%86%92-c9a84c?style=flat-square&logo=github&logoColor=0c0b09)](https://github.com/ratthaphon0/asixfshop)
 
 <br/>
 
-<!-- ══════════════════════════════════════════════ -->
-<!-- CONTRIBUTION GRAPH                            -->
-<!-- ══════════════════════════════════════════════ -->
+> ### 🍱 &nbsp; SmartCanteen &nbsp; — &nbsp; `TEAM COLLAB`
+> *IoT-integrated smart canteen management with ordering & inventory tracking*
+
+![Python](https://img.shields.io/badge/Python-0c0b09?style=flat-square&logo=python&logoColor=c9a84c)&nbsp;
+![IoT](https://img.shields.io/badge/IoT-0c0b09?style=flat-square&logo=raspberrypi&logoColor=c9a84c)&nbsp;
+[![View Repo →](https://img.shields.io/badge/View%20Repo%20%E2%86%92-c9a84c?style=flat-square&logo=github&logoColor=0c0b09)](https://github.com/ratthaphon0/SmartCanteen)
+
+<br/>
+
+> ### 🐍 &nbsp; ratthaphon-python-source &nbsp; — &nbsp; `PERSONAL`
+> *Python knowledge base — algorithms, utilities & learning notes*
+
+![Python](https://img.shields.io/badge/Python-0c0b09?style=flat-square&logo=python&logoColor=c9a84c)&nbsp;
+[![View Repo →](https://img.shields.io/badge/View%20Repo%20%E2%86%92-c9a84c?style=flat-square&logo=github&logoColor=0c0b09)](https://github.com/ratthaphon0/ratthaphon-python-source)
+
+<br/>
+
+---
 
 <div align="center">
 
-### `// ACTIVITY`
+### ✦ &nbsp; ACTIVITY &nbsp; ✦
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ratthaphon0&bg_color=141618&color=8fa8c8&line=4a6a9a&point=e8ecf0&area=true&area_color=8fa8c820&hide_border=false&border_color=2a2e34&radius=4&custom_title=Contribution%20Graph" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ratthaphon0&bg_color=0c0b09&color=c9a84c&line=7a6030&point=c9a84c&area=true&area_color=c9a84c15&hide_border=false&border_color=c9a84c25&radius=0&custom_title=Contribution%20Graph" width="100%"/>
 
 <br/>
 
-<!-- ── FOOTER ── -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1c2a3a,100:141618&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0c0b09,50:1a1500,100:0c0b09&height=100&section=footer&fontColor=c9a84c" width="100%"/>
 
-<sub><sub>
-  <em>Ratthaphon Khan · ratthaphon0 · Kasetsart University</em>
-</sub></sub>
+<sub><em>✦ &nbsp; Ratthaphon Khan &nbsp; · &nbsp; ratthaphon0 &nbsp; · &nbsp; Kasetsart University &nbsp; · &nbsp; Bangkok &nbsp; ✦</em></sub>
 
 </div>

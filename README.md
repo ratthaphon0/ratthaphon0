@@ -36,10 +36,6 @@
 </tr>
 </table>
 
-<br/>
-
-<img src="https://streak-stats.demolab.com/?user=ratthaphon0&theme=github-dark-blue&background=141618&border=2a2e34&stroke=8fa8c8&ring=8fa8c8&fire=a0aab8&currStreakNum=e8ecf0&sideNums=e8ecf0&currStreakLabel=8fa8c8&sideLabels=8fa8c8&dates=5a6570&border_radius=4" height="130"/>
-
 </div>
 
 <br/>

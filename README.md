@@ -28,13 +28,17 @@
 <table border="0">
 <tr>
 <td>
-<img src="https://github-readme-stats.vercel.app/api?username=ratthaphon0&show_icons=true&bg_color=141618&title_color=8fa8c8&text_color=a0aab8&icon_color=8fa8c8&border_color=2a2e34&border_radius=4&rank_icon=github&custom_title=Overview&include_all_commits=true&count_private=true" height="170"/>
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=ratthaphon0&show_icons=true&bg_color=141618&title_color=8fa8c8&text_color=a0aab8&icon_color=8fa8c8&border_color=2a2e34&border_radius=4&rank_icon=github&custom_title=Overview&include_all_commits=true&count_private=true" height="170"/>
 </td>
 <td>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ratthaphon0&layout=compact&bg_color=141618&title_color=8fa8c8&text_color=a0aab8&border_color=2a2e34&border_radius=4&langs_count=6&custom_title=Languages" height="170"/>
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ratthaphon0&layout=compact&bg_color=141618&title_color=8fa8c8&text_color=a0aab8&border_color=2a2e34&border_radius=4&langs_count=6&custom_title=Languages" height="170"/>
 </td>
 </tr>
 </table>
+
+<br/>
+
+<img src="https://streak-stats.demolab.com/?user=ratthaphon0&theme=github-dark-blue&background=141618&border=2a2e34&stroke=8fa8c8&ring=8fa8c8&fire=a0aab8&currStreakNum=e8ecf0&sideNums=e8ecf0&currStreakLabel=8fa8c8&sideLabels=8fa8c8&dates=5a6570&border_radius=4" height="130"/>
 
 </div>
 

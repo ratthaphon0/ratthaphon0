@@ -38,7 +38,7 @@
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ratthaphon0&theme=github-dark-blue&background=141618&border=2a2e34&stroke=8fa8c8&ring=8fa8c8&fire=a0aab8&currStreakNum=e8ecf0&sideNums=e8ecf0&currStreakLabel=8fa8c8&sideLabels=8fa8c8&dates=5a6570&border_radius=4&count_private=true" height="130"/>
+<img src="https://streak-stats.demolab.com/?user=ratthaphon0&theme=github-dark-blue&background=141618&border=2a2e34&stroke=8fa8c8&ring=8fa8c8&fire=a0aab8&currStreakNum=e8ecf0&sideNums=e8ecf0&currStreakLabel=8fa8c8&sideLabels=8fa8c8&dates=5a6570&border_radius=4" height="130"/>
 
 </div>
 
@@ -92,8 +92,8 @@
 
 <br/>
 
-> ### 🌊 &nbsp; Underwater Project Suite &nbsp; — &nbsp; `TEAM COLLAB`
-> *Multi-module submarine underwater monitoring system built collaboratively*
+> ### 🌊 &nbsp; Underwater Project Suite &nbsp; — &nbsp; `TEAM COLLAB · UNDER DEVELOPMENT`
+> *Multi-module submarine underwater monitoring system · Thailand Startup League 2026*
 
 | Module | Description | Stack |
 |--------|-------------|-------|
@@ -102,20 +102,23 @@
 | [underwater-project-frontend](https://github.com/ratthaphon0/underwater-project-frontend) | Dashboard interface | `JavaScript` `React` |
 | [underwater-project-datasci](https://github.com/ratthaphon0/underwater-project-datasci) | Data science & visualisation | `Python` `Pandas` |
 
+[![View Repo →](https://img.shields.io/badge/View%20Repo%20%E2%86%92-8fa8c8?style=flat-square&logo=github&logoColor=141618)](https://github.com/ratthaphon0/underwater-project-v1)
+
 <br/>
 
-> ### 🛒 &nbsp; AsixfShop &nbsp; — &nbsp; `IN PROGRESS`
+> ### 🛒 &nbsp; AsixfShop &nbsp; — &nbsp; `SOLO · COMPLETED`
 > *Full-featured e-commerce platform with cart, checkout & product management*
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-141618?style=flat-square&logo=javascript&logoColor=8fa8c8&labelColor=1c2028)&nbsp;
 ![React](https://img.shields.io/badge/React-141618?style=flat-square&logo=react&logoColor=8fa8c8&labelColor=1c2028)&nbsp;
 ![Node.js](https://img.shields.io/badge/Node.js-141618?style=flat-square&logo=node.js&logoColor=8fa8c8&labelColor=1c2028)&nbsp;
-[![View Repo →](https://img.shields.io/badge/View%20Repo%20%E2%86%92-8fa8c8?style=flat-square&logo=github&logoColor=141618)](https://github.com/ratthaphon0/asixfshop)
+[![Live Demo →](https://img.shields.io/badge/Live%20Demo%20%E2%86%92-7aaa70?style=flat-square&logoColor=141618)](http://119.59.102.161/std6730202734/Shopping_web)&nbsp;
+[![View Repo →](https://img.shields.io/badge/View%20Repo%20%E2%86%92-8fa8c8?style=flat-square&logo=github&logoColor=141618)](https://github.com/ratthaphon0/shopping-website)
 
 <br/>
 
-> ### 🍱 &nbsp; SmartCanteen &nbsp; — &nbsp; `TEAM COLLAB`
-> *IoT-integrated smart canteen management with ordering & inventory tracking*
+> ### 🍱 &nbsp; SmartCanteen &nbsp; — &nbsp; `TEAM COLLAB · UNDER DEVELOPMENT`
+> *IoT-integrated smart canteen management with ordering & inventory tracking · KU AI Pioneers*
 
 ![Python](https://img.shields.io/badge/Python-141618?style=flat-square&logo=python&logoColor=8fa8c8&labelColor=1c2028)&nbsp;
 ![IoT](https://img.shields.io/badge/IoT-141618?style=flat-square&logo=raspberrypi&logoColor=8fa8c8&labelColor=1c2028)&nbsp;
@@ -123,11 +126,14 @@
 
 <br/>
 
-> ### 🐍 &nbsp; ratthaphon-python-source &nbsp; — &nbsp; `PERSONAL`
-> *Python knowledge base — algorithms, utilities & learning notes*
+> ### 🗺️ &nbsp; Thai Tourism Dashboard &nbsp; — &nbsp; `SOLO · COMPLETED`
+> *Interactive data science dashboard — hotel occupancy rates across 77 provinces (2019–2023)*
 
 ![Python](https://img.shields.io/badge/Python-141618?style=flat-square&logo=python&logoColor=8fa8c8&labelColor=1c2028)&nbsp;
-[![View Repo →](https://img.shields.io/badge/View%20Repo%20%E2%86%92-8fa8c8?style=flat-square&logo=github&logoColor=141618)](https://github.com/ratthaphon0/ratthaphon-python-source)
+![React](https://img.shields.io/badge/React-141618?style=flat-square&logo=react&logoColor=8fa8c8&labelColor=1c2028)&nbsp;
+![Pandas](https://img.shields.io/badge/Pandas-141618?style=flat-square&logo=pandas&logoColor=8fa8c8&labelColor=1c2028)&nbsp;
+[![Live Demo →](https://img.shields.io/badge/Live%20Demo%20%E2%86%92-7aaa70?style=flat-square&logoColor=141618)](https://thai-tourism-dashboard.vercel.app/)&nbsp;
+[![View Repo →](https://img.shields.io/badge/View%20Repo%20%E2%86%92-8fa8c8?style=flat-square&logo=github&logoColor=141618)](https://github.com/ratthaphon0/thai-tourism-dashboard)
 
 <br/>
 

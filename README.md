@@ -47,7 +47,9 @@ I helped build a Flutter prototype for Thai music students. It sends recorded WA
 
 [Explore Duriya](https://ratthaphon0.github.io/#duriya)
 
-**[KU Conference 2026](https://ratthaphon0.github.io/#projects)** · I built API integrations and health checks, configured backend services, and documented the staging setup.
+**KuConfer · IWEAYR-20 conference website**
+
+I built API integrations and health checks, configured backend services, and documented the staging setup for the team. [Visit the IWEAYR-20 conference website](https://iweayr.sci.src.ku.ac.th/).
 
 ## Browse the code
 

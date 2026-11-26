@@ -22,6 +22,14 @@ Our team built Matchanu to measure dissolved oxygen, pH, temperature and turbidi
 
 [Explore Matchanu](https://ratthaphon0.github.io/#matchanu) · [Read the university award report](https://sci.src.ku.ac.th/?p=17314)
 
+### [![SmartSign — the team at Startup Thailand League 2026](./assets/smartsign-finalist.webp)](https://sci.src.ku.ac.th/?p=16675)
+
+**National finalist · Startup Thailand League 2026**
+
+Our team built an AI sign language interpreter that turns text or speech into signing by a 3D avatar, and signing back into text or speech. I worked on the avatar’s motion sequences, adapted animations to its skeleton, and added checks for frozen playback.
+
+[Read the university’s finalist announcement and photo credit](https://sci.src.ku.ac.th/?p=16675)
+
 ### [![AFD-Care — the dashboard for cameras and fall alerts](./assets/afd-system.webp)](https://ratthaphon0.github.io/#afd-care)
 
 **Fall detection and caregiver alerts**

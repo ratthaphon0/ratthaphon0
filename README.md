@@ -1,4 +1,4 @@
-<img src="./assets/profile-cover.webp" width="100%" alt="Ratthaphon Khan, software developer focused on backend, Flutter, and applied AI. The Matchanu team holds its prototype at Kasetsart University.">
+<img src="./assets/profile-cover.webp" width="100%" alt="Ratthaphon Khan, software developer focused on backend, Flutter, and applied AI. Ratthaphon presenting in front of a software demo.">
 
 **I build backend services and Flutter apps, often for projects that start with a camera or sensor.**
 

@@ -2,21 +2,27 @@
 
 **I build backend services and Flutter apps, often for projects that start with a camera or sensor.**
 
-I'm studying Digital Science and Technology at Kasetsart University, Sriracha Campus, with a GPA of **3.90/4.00**.
+I study Digital Science and Technology at Kasetsart University, Sriracha Campus (**3.90/4.00**). I’m looking for a backend or mobile co-op.
 
 [**Portfolio**](https://ratthaphon0.github.io/) · [**LinkedIn**](https://www.linkedin.com/in/ratthaphon-khan-176577371/) · [**Public repositories**](https://github.com/ratthaphon0?tab=repositories)
 
+## GitHub in numbers
+
+<img src="./assets/contributions.svg" width="380" alt="120 contributions from January through 26 November 2026. Monthly counts: Jan 0, Feb 46, Mar 20, Apr 12, May 0, Jun 2, Jul 7, Aug 3, Sep 28, Oct 0, Nov 2."> <img src="./assets/repositories.svg" width="380" alt="14 public non-fork repositories by primary language. Python 6, JavaScript 2, unclassified 2, PHP 1, Shell 1, HTML 1, TypeScript 1.">
+
+Snapshot from 26 November 2026 · [Contribution calendar](https://github.com/ratthaphon0?tab=overview&from=2026-01-01&to=2026-11-26) · [Public repositories](https://github.com/ratthaphon0?tab=repositories)
+
 ## Selected work
 
-### [Matchanu](https://ratthaphon0.github.io/#matchanu) · First place at the KU Innovation Contest
+### 🏆 Matchanu
 
-I worked on the infrastructure for a Raspberry Pi prototype that measures dissolved oxygen, pH, water temperature, and turbidity in fish ponds. Our team took first place in the undergraduate Science and Technology category at Kasetsart University, Kamphaeng Saen, in November 2026.
+Our team won **first place in undergraduate Science and Technology** at the KU Innovation Contest in November 2026. I worked on infrastructure for our Raspberry Pi prototype, which measures oxygen, pH, temperature and turbidity in fish ponds.
 
-[University award report and cover photo source](https://sci.src.ku.ac.th/?p=17314)
+[Explore Matchanu](https://ratthaphon0.github.io/#matchanu) · [KU award report and team photograph](https://sci.src.ku.ac.th/?p=17314)
 
-### [AFD-Care](https://ratthaphon0.github.io/#afd-care) · Fall detection and caregiver app
+<a href="https://ratthaphon0.github.io/#afd-care"><img src="./assets/afd-care-demo.webp" width="380" alt="AFD-Care dashboard showing camera and event status. Open the AFD-Care case study."></a> <a href="https://ratthaphon0.github.io/#duriya"><img src="./assets/duriya.webp" width="380" alt="Duriya Thai music project artwork. Open the Duriya case study."></a>
 
-I built the fall detection pipeline and the Flutter app for the prototype. Caregivers can check cameras, see past events, and review alerts in the app.
+**[AFD-Care](https://ratthaphon0.github.io/#afd-care)** · I built the fall detection pipeline and the Flutter app that caregivers use to check cameras and review alerts.
 
 <details>
 <summary>Inside the AFD-Care prototype</summary>
@@ -25,13 +31,9 @@ The pipeline uses YOLO pose estimation and a GRU classifier, with ONNX inference
 
 </details>
 
-### [Duriya](https://ratthaphon0.github.io/#duriya) · Thai music practice
+**[Duriya](https://ratthaphon0.github.io/#duriya)** · I helped build a Flutter prototype for Thai music practice. It sends recorded audio to FastAPI so teachers can review feedback on notes and rhythm.
 
-I contributed to a Flutter prototype that records practice sessions and sends WAV audio to a FastAPI and PostgreSQL backend for background analysis. Teachers can review experimental feedback on notes and rhythm.
-
-### [KU Conference 2026](https://ratthaphon0.github.io/#projects) · Conference platform
-
-I built API integrations and health checks, configured backend services, and documented the staging setup for the GitLab team.
+**[KU Conference 2026](https://ratthaphon0.github.io/#projects)** · I built API integrations and health checks, configured backend services, and documented the staging setup.
 
 ## Browse the code
 
@@ -42,9 +44,6 @@ I built API integrations and health checks, configured backend services, and doc
 
 ## Tools I use
 
-- **Backend** · Python, FastAPI, Laravel, PostgreSQL, Redis
-- **Mobile and web** · Dart, Flutter, TypeScript, React
-- **Applied AI and edge** · YOLO, ONNX, OpenCV, Raspberry Pi, Orange Pi
-- **Infrastructure** · Docker, Linux, Git
+<img src="./assets/tool-python.svg" width="36" height="36" alt="Python"> <img src="./assets/tool-fastapi.svg" width="36" height="36" alt="FastAPI"> <img src="./assets/tool-flutter.svg" width="36" height="36" alt="Flutter"> <img src="./assets/tool-postgresql.svg" width="36" height="36" alt="PostgreSQL"> <img src="./assets/tool-docker.svg" width="36" height="36" alt="Docker"> <img src="./assets/tool-react.svg" width="36" height="36" alt="React">
 
-I'm interested in software development internships and cooperative education, especially in backend and mobile development. [Connect on LinkedIn](https://www.linkedin.com/in/ratthaphon-khan-176577371/).
+Python · FastAPI · Flutter · PostgreSQL · Docker · React

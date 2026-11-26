@@ -14,33 +14,47 @@ Snapshot from 26 November 2026 · [Contribution calendar](https://github.com/rat
 
 ## Selected work
 
-### 🏆 Matchanu
+### [![Matchanu — Raspberry Pi water-quality prototype photographed in the team’s presentation](./assets/matchanu-field.webp)](https://ratthaphon0.github.io/#matchanu)
 
-Our team won **first place in undergraduate Science and Technology** at the KU Innovation Contest in November 2026. I worked on infrastructure for our Raspberry Pi prototype, which measures oxygen, pH, temperature and turbidity in fish ponds.
+**First place · KU Innovation Contest, November 2026**
 
-[Explore Matchanu](https://ratthaphon0.github.io/#matchanu) · [KU award report and team photograph](https://sci.src.ku.ac.th/?p=17314)
+Our team built Matchanu to measure dissolved oxygen, pH, temperature and turbidity in fish ponds. I worked on the infrastructure for the Raspberry Pi prototype. We won the undergraduate Science and Technology category.
 
-<a href="https://ratthaphon0.github.io/#afd-care"><img src="./assets/afd-care-demo.webp" width="380" alt="AFD-Care dashboard showing camera and event status. Open the AFD-Care case study."></a> <a href="https://ratthaphon0.github.io/#duriya"><img src="./assets/duriya.webp" width="380" alt="Duriya Thai music project artwork. Open the Duriya case study."></a>
+[Explore Matchanu](https://ratthaphon0.github.io/#matchanu) · [Read the university award report](https://sci.src.ku.ac.th/?p=17314)
 
-**[AFD-Care](https://ratthaphon0.github.io/#afd-care)** · I built the fall detection pipeline and the Flutter app that caregivers use to check cameras and review alerts.
+### [![AFD-Care — the dashboard for cameras and fall alerts](./assets/afd-system.webp)](https://ratthaphon0.github.io/#afd-care)
+
+**Fall detection and caregiver alerts**
+
+I built the fall detection pipeline and the Flutter app. A caregiver can open an alert, check the camera and look back at earlier events.
 
 <details>
-<summary>Inside the AFD-Care prototype</summary>
+<summary><strong>How does a camera event reach a caregiver?</strong></summary>
 
-The pipeline uses YOLO pose estimation and a GRU classifier, with ONNX inference targeting Orange Pi. FastAPI and Laravel services use Redis to process events. The prototype queues events offline and can send alerts through FCM, LINE, and Telegram.
+1. **Read the movement.** YOLO estimates body pose from camera frames. A GRU classifier looks at the sequence for signs of a fall. ONNX inference targets the Orange Pi.
+2. **Queue the event.** FastAPI and Laravel services use Redis to process events. The prototype can queue events while offline.
+3. **Notify the caregiver.** The prototype supports FCM, LINE and Telegram alerts. Caregivers can review the event in the Flutter app.
 
 </details>
 
-**[Duriya](https://ratthaphon0.github.io/#duriya)** · I helped build a Flutter prototype for Thai music practice. It sends recorded audio to FastAPI so teachers can review feedback on notes and rhythm.
+[See the AFD-Care prototype](https://ratthaphon0.github.io/#afd-care)
+
+### [![Duriya — mobile prototype for Thai music practice, shown with its original artwork](./assets/duriya-practice.webp)](https://ratthaphon0.github.io/#duriya)
+
+**Record a practice session. Review the notes and rhythm.**
+
+I helped build a Flutter prototype for Thai music students. It sends recorded WAV audio to a FastAPI backend for analysis, so teachers can review the experimental feedback alongside the practice session.
+
+[Explore Duriya](https://ratthaphon0.github.io/#duriya)
 
 **[KU Conference 2026](https://ratthaphon0.github.io/#projects)** · I built API integrations and health checks, configured backend services, and documented the staging setup.
 
 ## Browse the code
 
-- **[Smart Canteen](https://github.com/ratthaphon0/SmartCanteen-proj)**. Seat occupancy dashboard built with React and FastAPI. I trained YOLO on our custom canteen dataset using an A100 on the Nontri AI Cluster.
-- **[Thai Tourism Dashboard](https://github.com/ratthaphon0/thai-tourism-dashboard)**. Compare hotel occupancy across Thailand's 77 provinces from 2019 to 2023. [Live dashboard](https://thai-tourism-dashboard.vercel.app/).
-- **[AsixfShop](https://github.com/ratthaphon0/shopping-website)**. PHP e-commerce project with cart, checkout, and product management.
-- **[Portfolio site](https://github.com/ratthaphon0/ratthaphon0.github.io)**. Source for my portfolio and project write-ups.
+- **[Explore the Smart Canteen occupancy dashboard](https://github.com/ratthaphon0/SmartCanteen-proj)** · React and FastAPI. I trained YOLO on our canteen dataset using an A100 on the Nontri AI Cluster.
+- **[Compare hotel occupancy across 77 Thai provinces](https://thai-tourism-dashboard.vercel.app/)** · Explore data from 2019–2023 or [read the dashboard source](https://github.com/ratthaphon0/thai-tourism-dashboard).
+- **[Follow a checkout in AsixfShop](https://github.com/ratthaphon0/shopping-website)** · A PHP storefront with a cart, checkout and product management.
+- **[See how I built my portfolio](https://github.com/ratthaphon0/ratthaphon0.github.io)** · Source for the site and project write-ups.
 
 ## Tools I use
 
